@@ -40,7 +40,7 @@ public class FlashlightWrapper {
     }
     
    public void stopFlash(){
-   Toast.makeText(context, "disabling.", Toast.LENGTH_SHORT).show();
+  	Toast.makeText(context, "disabling.", Toast.LENGTH_SHORT).show();
         camera.stopPreview();
 	camera.release();
     }
